@@ -2,7 +2,7 @@ data = [[[[111],[112],[113],[114]],[[121],[122],[123],[124]],[[131],[132],[133],
 import xlsxwriter
 
 sheet_name = ['data 1', 'data 2','data 3']
-workbook = xlsxwriter.Workbook('arrays.xlsx')
+workbook = xlsxwriter.Workbook('lists.xlsx')
 
 for name in sheet_name:
     sheet = workbook.add_worksheet(name)
